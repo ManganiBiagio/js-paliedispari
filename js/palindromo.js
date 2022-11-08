@@ -27,7 +27,12 @@ function isPalindroma(txt){
         return "Errore nel tipo di dato inserito"
     }
     else{
-        let txtReverse=txt.split("").reverse().join("");
+        // let txtReverse=txt.split("").reverse().join("");
+        let txtReverse="";
+        for(let i=txt.length-1;i>=0;i--){
+            txtReverse+=txt[i];
+              
+        }
         if(txtReverse===txt){
             return true;
         }else{
