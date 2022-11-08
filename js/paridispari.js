@@ -40,8 +40,7 @@ btnPariDispariEl.addEventListener("click",function(){
         }
 
     }
-    console.log(`
-    numero giocatore:${numScelto}
+    console.log(`numero giocatore:${numScelto}
     numero pc:${pcNum}
     somma:${pcNum+numScelto}
     `)
