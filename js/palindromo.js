@@ -24,7 +24,7 @@ btnGeneraEl.addEventListener("click",function() {
  */
 function isPalindroma(txt){
     if(typeof txt != "string"){
-        throw "Errore nel tipo di dato inserito"
+        return "Errore nel tipo di dato inserito"
     }
     else{
         let txtReverse=txt.split("").reverse().join("");
